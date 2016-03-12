@@ -1,4 +1,4 @@
-# ipfs-playground
+# What is directory in ipfs?
 
 Let's add a directory to ipfs:
 
@@ -66,4 +66,4 @@ Combine both hashes and tree:
 
 `graphmd QmfDdArE3J38KA6YL3mygnksKiX5AB9CoT5yFNY8ECMvSu | dot -Tpng >graph.png`
 
-
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
