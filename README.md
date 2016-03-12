@@ -1,9 +1,10 @@
 # What is directory in ipfs?
 
-Let's add a directory to ipfs:
+
+Let's add a directory `1` with subdirectories and files to ipfs:
 
 `
-➜  eth ipfs add -r ./1
+➜  ipfs add -r ./1
 added QmUNLLsPACCz1vLxQVkXqqLX5R1X345qqfHbsf67hvA3Nn 1/app/images
 added QmeiFqNGeiAdAUjZrZUb92mVAGKuWDyfqt1isMn8wqDbiL 1/app/index.html
 added QmVPYc58NruJoTQ7juSXBQauSceDmbDR2b8qGRkU6qQBAt 1/app/javascripts/app.js
@@ -33,7 +34,7 @@ added QmfDdArE3J38KA6YL3mygnksKiX5AB9CoT5yFNY8ECMvSu 1
 Let's make a tree out of it:
 
 ````
-➜  eth tree 1
+➜  tree 1
 1
 ├── app
 │   ├── images
@@ -66,4 +67,4 @@ Combine both hashes and tree:
 
 `graphmd QmfDdArE3J38KA6YL3mygnksKiX5AB9CoT5yFNY8ECMvSu | dot -Tpng >graph.png`
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![Tree](https://github.com/igorbarinov/ipfs-playground/blob/master/img/graph.png "Tree")
