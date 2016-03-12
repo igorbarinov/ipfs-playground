@@ -1,4 +1,4 @@
-# What is a directory in ipfs?
+# What is directory in ipfs?
 
 Directory is a root hash of Merkle DAG. Each time you add the same directory with the same content to ipfs you get the same hash. If you change, add or remove file you will get a new pointer to the directory.
 
